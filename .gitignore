@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# Project-specific files
+.DS_Store
+.gitkeep
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+coverage.xml
+nosetests.xml
+test-report.xml
+.benchmarks
+
+# Documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtualenv
+# The following patterns are for virtual environments created by virtualenv or venv
+# with common naming conventions. Adjust if your virtual environment uses a different name.
+# (e.g., if you use 'myenv' instead of 'venv', replace 'venv/' with 'myenv/')
+*/venv/
+*/.venv/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.Trashes
+._*
+
+# Logs
+*.log
