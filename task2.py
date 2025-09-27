@@ -3,17 +3,17 @@
 import time
 
 
-def time_decorator(func):
+def execution_time(func):
     def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)
-        print(time.time() - start)
+        duration = time.time() - start
+        print(f"Час виконання: {duration} секунд")
         return result
-
     return wrapper
 
 
-@time_decorator
+@execution_time
 def hello_by_name(name):
     return f"Hello, {name}! " * 1000
 
